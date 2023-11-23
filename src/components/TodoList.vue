@@ -12,6 +12,8 @@
         Olá {{ todo.fullName }} <br><br> Que pena voce está sem foto <br>
         <a href="">Adicionar foto</a>
         </div>
+      
+
     </div>
   </div>
 </template>

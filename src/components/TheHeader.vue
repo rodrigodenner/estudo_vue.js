@@ -1,6 +1,7 @@
 <template>
   <header class="header">
-    Header 
+    <slot></slot>
+    <slot name="desc"></slot>
   </header>
 </template>
 
@@ -12,7 +13,7 @@ export default {
 
 <style>
 .header{
-    background-color: aqua;
+    background-color: black;
     color: white;
 }
 </style>
